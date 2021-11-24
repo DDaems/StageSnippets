@@ -37,10 +37,10 @@ public static class DataWachtPrestatie {
                                 switch (date.DayOfWeek)
                                 {
                                     case DayOfWeek.Monday:
-                                        date.AddDays(3);
+                                        endDate = date.AddDays(3);
                                         break;
                                     case DayOfWeek.Thursday:
-                                        date.AddDays(4);
+                                        endDate = date.AddDays(4);
                                         break;
                                     default:
                                         continue;
